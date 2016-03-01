@@ -18,7 +18,7 @@ supported. Synchronous tests should be handled synchronously to improve speed an
 
 The new API looks like this:
 
-```js
+```javascript
 // Listen to a test, give it a callback
 Modernizr.on('testname', function( result ) {
   if (result) {
